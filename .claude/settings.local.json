@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Python312/python.exe -c \"import openpyxl; print\\(''openpyxl'', openpyxl.__version__\\)\")",
+      "Bash(/c/Python312/python.exe -c \"import xlsxwriter; print\\(''xlsxwriter'', xlsxwriter.__version__\\)\")",
+      "Bash(/c/Python312/python.exe -c \"import pandas; print\\(''pandas'', pandas.__version__\\)\")",
+      "Bash(/c/Users/Administrator/anaconda3/python.exe -c \"import openpyxl; print\\(''openpyxl'', openpyxl.__version__\\)\")",
+      "Bash(/c/Users/Administrator/anaconda3/python.exe -c \"import xlsxwriter; print\\(''xlsxwriter'', xlsxwriter.__version__\\)\")",
+      "Bash(/c/Users/Administrator/anaconda3/python.exe -c \"import pandas; print\\(''pandas'', pandas.__version__\\)\")",
+      "Bash(/c/Users/Administrator/anaconda3/python.exe 2)",
+      "Bash(1:*)",
+      "Bash(/c/Users/Administrator/anaconda3/python.exe build_excel.py)",
+      "Bash(rm rebuild_all.py build_excel.py patch_notebook_24.py)",
+      "Bash(ls -lh *.csv *.xlsx *.ipynb)",
+      "Bash(__NEW_LINE_47a276d426974e08__ echo:*)",
+      "Bash(__NEW_LINE_47a276d426974e08__ sed:*)",
+      "Bash(__NEW_LINE_f1589813639c83f6__ sed:*)"
+    ]
+  }
+}
