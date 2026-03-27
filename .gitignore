@@ -1,0 +1,7 @@
+.vscode 
+.claude 
+.qodo 
+jupyter_runtime 
+__pycache__ 
+*.pyc 
+.ipynb_checkpoints
